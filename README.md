@@ -19,9 +19,7 @@ The model did a better job than the survey in predicting the popular vote for th
 ![Popular Vote](PopularVotePlot.png)
 
 Furthermore, the model predicted the correct winner in 336 constituencies out of 573 (58%) in England and Wales. This is not great but it is better than random chance. In addition to this, precision for Conservative wins was 64.7%. Precision and recall metrics for Conservatives and Labour are shown below:
-<p align="center">
-  <img width="460" height="300" src="[picsum.photos/460/300]">
-</p>
 
+<div style="text-align:center">
 ![PRM](PrecisionRecall.png)
-                                                                                      
+</div>                                                                                      
