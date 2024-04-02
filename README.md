@@ -14,4 +14,6 @@ Finally, the true election results were extracted from the 2010-2019 BES Constit
 I used a logistic regression model to estimate 5 outcomes (turnout, conservative, labour, liberal democrat, and other). The variables included in this model were female (a dummy for whether the individual is as male or female), region (included because the survey data did not contain estimates for all constituencies) constituency, age bracket (with 10 age levels), and educational level (with 8 levels). Addtionally, I used random intercepts for all factor predictors to account for variation between groups given the heirarchical nature of my dataset. 
 
 ## Results
+The model did a better job than the survey in predicting the popular voter for the 2019 General Election. The model predicted a 45.5% vote share for Conservatives (true vote share was 46.6%), 33.1% for Labour (compared to the true result of 34.3%), 12.5% for Liberal Democrats (compared to the true result of 12.1%), and 6.5% for Other parties (true results was 6.5% as well). A comparisson of the survey, predicted and true results are shown in the graph below:
+
 ![Popular Vote](PopularVotePlot.png)
