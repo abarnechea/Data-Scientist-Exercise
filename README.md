@@ -23,4 +23,8 @@ Furthermore, the model predicted the correct winner in 336 constituencies out of
 <p align="center">
   <img src="PrecisionRecall.png" alt="PRM" width="50%">
 </p>
-                                                                                 
+
+## Limitations
+
+* Survey data did not include estimates for all constituencies in England and Wales; only 363 out of 573 were sampled.
+* This was a simple MRP model. Greater precision could be achieved with greater complexity, such as by adding information about previous voting patterns in each poststratification cell.
