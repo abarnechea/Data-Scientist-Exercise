@@ -13,4 +13,4 @@ Finally, the true election results were extracted from the 2010-2019 BES Constit
 ### Model
 I used a logistic regression model to estimate 5 outcomes (turnout, conservative, labour, liberal democrat, and other). The varialbes in included in this model were female (a dummy for whether the individual is as male or female), region (included because the survey data did not contain estimates for all constituencies) constituency, age bracket (with 10 age levels), and educational level (with 8 levels). I used random intercepts for all factor predictors to account for variation between groups given the heirarchical nature of my dataset. 
 
-### Results
+## Results
